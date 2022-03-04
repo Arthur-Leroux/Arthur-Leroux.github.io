@@ -1,3 +1,169 @@
-body{
-    background-color: #f0f;
+body {
+	font-family: 'Fredoka', sans-serif;
+
 }
+
+.container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.container__left {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+	background-color: #174ea6;
+	color: white;
+
+}
+
+.container__left-informations {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	margin-bottom: 10%;
+	justify-content: space-between;
+
+}
+
+.container__left-title {
+	text-transform: uppercase;
+	color: rgb(183, 124, 238);
+	padding-bottom: 1rem;
+
+}
+
+.container__left-first {
+	text-transform: uppercase;
+	color: black;
+	padding-bottom: 1rem;
+	font-size: large;
+}
+
+.container__left-paragraphe {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: space-around;
+
+}
+
+.container__left-paragrage1 {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+.container__right {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.container__right-information {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+
+}
+
+.container__right-title {
+	display: flex;
+	justify-content: center;
+
+}
+.container__right-paragraphe{
+
+}
+
+
+
+
+
+
+
+/*BODY
+body{
+	font-family: 'Fredoka', sans-serif; ;
+}
+
+.container-left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+
+}
+
+.left {
+	display: flex;
+	flex-direction: column;
+	background-color: #174ea6;
+	color: white;
+	justify-content: flex-start;
+	padding-bottom: 100%;
+	align-items: flex-start;
+	width: 40%;
+
+}
+
+.informations {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	margin: 5% 4%;
+	;
+}
+
+.formation {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 90%;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 10%;
+	color: rgb(183, 124, 238);
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+.formation-annee {
+	display: flex;
+	align-items: flex-start;
+
+}
+
+.mise {
+	display: flex;
+
+	justify-content: space-between;
+	height: auto;
+	width: 100%;
+}
+
+.langues {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 50%;
+}
+.pro{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	
+}
+.pad{
+	padding:0.5rem;
+}*/
